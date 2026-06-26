@@ -20,15 +20,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="10.017365"
-     inkscape:cx="76.067907"
-     inkscape:cy="38.682827"
+     inkscape:zoom="9.5228694"
+     inkscape:cx="76.08001"
+     inkscape:cy="38.69632"
      inkscape:window-width="2560"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer2"
+     showguides="true" />
   <desc
      id="desc1">DTM15-12PA.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
   <defs
@@ -86,62 +87,62 @@
        inkscape:label="pins"
        style="display:inline">
       <path
-         d="m -37.704,1109.0797 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -36.286796,1109.0797 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path11"
          inkscape:label="1" />
       <path
-         d="m -22.46296,1109.2794 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -20.446795,1109.2794 a 3.3132045,3.3132045 0 0 0 -6.626409,0 3.3132045,3.3132045 0 0 0 6.626409,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path12"
          inkscape:label="2" />
       <path
-         d="m -6.024,1109.0797 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -4.6067961,1109.0797 a 3.313204,3.313204 0 0 0 -6.6264079,0 3.313204,3.313204 0 0 0 6.6264079,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path13"
          inkscape:label="3" />
       <path
-         d="m 9.816,1109.0797 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 11.233204,1109.0797 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path16"
          inkscape:label="4" />
       <path
-         d="m 25.656,1109.0797 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 27.073204,1109.0797 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path15"
          inkscape:label="5" />
       <path
-         d="m 41.496,1109.0797 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 42.913204,1109.0797 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path14"
          inkscape:label="6" />
       <path
-         d="m 41.496,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 42.913204,1135.9597 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path17"
          inkscape:label="7" />
       <path
-         d="m 25.656,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 27.073204,1135.9597 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path18"
          inkscape:label="8" />
       <path
-         d="m 9.816,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m 11.234167,1135.9597 a 3.3141669,3.3141669 0 0 0 -6.6283336,0 3.3141669,3.3141669 0 0 0 6.6283336,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path19"
          inkscape:label="9" />
       <path
-         d="m -6.024,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -4.606796,1135.9597 a 3.3132041,3.3132041 0 0 0 -6.626408,0 3.3132041,3.3132041 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path22"
          inkscape:label="10" />
       <path
-         d="m -21.864,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -20.446795,1135.9597 a 3.3132045,3.3132045 0 0 0 -6.626409,0 3.3132045,3.3132045 0 0 0 6.626409,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path21"
          inkscape:label="11" />
       <path
-         d="m -37.704,1135.9597 a 1.896,1.896 0 0 0 -3.792,0 1.896,1.896 0 0 0 3.792,0 z"
+         d="m -36.286796,1135.9597 a 3.313204,3.313204 0 0 0 -6.626408,0 3.313204,3.313204 0 0 0 6.626408,0 z"
          style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round"
          id="path20"
          inkscape:label="12" />
