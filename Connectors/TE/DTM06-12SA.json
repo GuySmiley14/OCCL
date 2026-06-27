@@ -1,0 +1,26 @@
+{
+    "manufacturer": "TE Connectivity",
+    "series": "DTM",
+    "partNumber": "DTM06-12SA",
+    "description": "12-position receptacle housing",
+
+    "positions": 12,
+
+    "gender": "female",
+    "mounting": "inline",
+    "termination": "crimp",
+
+    "compatibleMates": [
+        "DTM15-12PA"
+    ],
+
+    "views": {
+        "harnessFront": "harness-front.svg",
+        "harnessRear": "harness-rear.svg"
+    },
+
+    "notes": [
+        "Deutsch DTM Series connector.",
+        "Harness-side connector."
+    ]
+}
