@@ -2,24 +2,25 @@
     "manufacturer": "AEM",
     "partName": "AEM BMS Mini Master",
     "partNumber": "30-8407",
+    "categories": ["BMS"], 
         
-    "connector": {
-        "manufacturer": "TE",
-        "partNumber": "DTM15-12PA"
-    },
-
-    "pins": [
-        {"pin": 1, "function": "12V", "notes": "Permanent +12V"},
-        {"pin": 2, "function": "GND", "notes": "12V Ground"},
-        {"pin": 3, "function": "CANH", "notes": "CAN High"},
-        {"pin": 4, "function": "CANL", "notes": "CAN Low "},
-        {"pin": 5, "function": "IPO", "notes": "IsoSPI Plus Out"},
-        {"pin": 6, "function": "IMO", "notes": "IsoSPI Minus Out"},
-        {"pin": 7, "function": "J1772 Prox", "notes": "PP Pin on J1772 Conn."},
-        {"pin": 8, "function": "J1772 CP", "notes": "CP Pin on J1772 Conn."},
-        {"pin": 9, "function": "VCU Wake", "notes": "VCU/BMS Wake in/out"},
-        {"pin": 10, "function": "Serial Ground", "notes": "Serial Ground Reference"},
-        {"pin": 11, "function": "RX Serial", "notes": "Serial Receive"},
-        {"pin": 12, "function": "TX Serial", "notes": "Serial Transmit"}
+    "connectors": [
+	{
+        "manufacturer": "TE", "partNumber": "DTM15-12PA",
+ 	"pins": [
+	        {"pin": 1, "function": "12V", "notes": "Permanent +12V"},
+	        {"pin": 2, "function": "GND", "notes": "12V Ground"},
+	        {"pin": 3, "function": "CANH", "notes": "CAN High"},
+	        {"pin": 4, "function": "CANL", "notes": "CAN Low"},
+	        {"pin": 5, "function": "IPO", "notes": "IsoSPI Plus Out"},
+	        {"pin": 6, "function": "IMO", "notes": "IsoSPI Minus Out"},
+	        {"pin": 7, "function": "J1772 Prox", "notes": "PP Pin on J1772 Conn."},
+	        {"pin": 8, "function": "J1772 CP", "notes": "CP Pin on J1772 Conn."},
+	        {"pin": 9, "function": "VCU Wake", "notes": "VCU/BMS Wake in/out"},
+	        {"pin": 10, "function": "Serial Ground", "notes": "Serial Ground Reference"},
+	        {"pin": 11, "function": "RX Serial", "notes": "Serial Receive"},
+	        {"pin": 12, "function": "TX Serial", "notes": "Serial Transmit"}
+		]
+        }
     ]
 }
