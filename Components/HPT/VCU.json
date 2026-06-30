@@ -8,7 +8,7 @@
 		{
 		"label": "A",
 		"manufacturer": "TE",
-		"partNumber": "4-1437290-0", 
+		"partNumber": "6437288-1", 
 		"pins": [
 			{"pin": 1, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
 			{"pin": 2, "function": "CAN _FD_A_P / CAN_A_P", "notes": "CAN_FD_A_P  Unshielded twisted pair with CAN_FD_A_N (impedance matched to 120 ohm recommended)"},
@@ -48,7 +48,7 @@
 		{
 		"label": "B",
 		"manufacturer": "TE",
-		"partNumber": "3-1437290-7",
+		"partNumber": "9-6437287-8",
 		"pins": [
 			{"pin": 1, "function": "Sensor1 +5V Power", "notes": "Sensor1 +5V reference supply voltage (5Vdc, 200mA)"},
 			{"pin": 2, "function": "Speed input 1", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
@@ -80,7 +80,7 @@
 		{
 		"label": "C",
 		"manufacturer": "TE",
-		"partNumber": "4-1437290-1",
+		"partNumber": "6437288-2",
 		"pins": [
 			{"pin": 1, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
 			{"pin": 2, "function": "5A high side driver output 1", "notes": "High side driver control (connect load to engine ground) (T1)"},
