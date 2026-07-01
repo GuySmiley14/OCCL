@@ -20,7 +20,7 @@
 			{"pin": 8, "function": "2A low side driver output 2", "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"},
 			{"pin": 9, "function": "2A low side driver output 3", "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"},
 			{"pin": 10, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 11, "function": "CAN _FD_A_N / CAN_A_N", "notes": "CAN_FD_A_N Unshielded twisted pair with CAN_FD_A_P (impedance matched to 120 ohm recommended)"},
+			{"pin": 11, "function": "CAN_FD_A_N / CAN_A_N", "notes": "CAN_FD_A_N Unshielded twisted pair with CAN_FD_A_P (impedance matched to 120 ohm recommended)"},
 			{"pin": 12, "function": "CAN_FD_B_N", "notes": "CAN_FD_B_N Unshielded twisted pair with CAN_FD_B_P (impedance matched to 120 ohm recommended)"},
 			{"pin": 13, "function": "CAN_FD_C_N / CAN_B_N", "notes": "CAN_FD_C_N Unshielded twisted pair with CAN_FD_C_P (impedance matched to 120 ohm recommended)"},
 			{"pin": 14, "function": "CAN_FD_D_N", "notes": "CAN_FD_D_N Unshielded twisted pair with CAN_FD_D_P (impedance matched to 120 ohm recommended)"},
