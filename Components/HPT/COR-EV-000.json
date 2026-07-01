@@ -11,7 +11,7 @@
 		"partNumber": "6437288-1", 
 		"pins": [
 			{"pin": 1, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 2, "function": "CAN _FD_A_P / CAN_A_P", "notes": "CAN_FD_A_P  Unshielded twisted pair with CAN_FD_A_N (impedance matched to 120 ohm recommended)"},
+			{"pin": 2, "function": "CAN_FD_A_P / CAN_A_P", "notes": "CAN_FD_A_P  Unshielded twisted pair with CAN_FD_A_N (impedance matched to 120 ohm recommended)"},
 			{"pin": 3, "function": "CAN_FD_B_P", "notes": "CAN_FD_B_P Unshielded twisted pair with CAN_FD_B_N (impedance matched to 120 ohm recommended)"},
 			{"pin": 4, "function": "CAN_FD_C_P / CAN_B_P", "notes": "CAN_FD_C_P Unshielded twisted pair with CAN_FD_C_N (impedance matched to 120 ohm recommended)"},
 			{"pin": 5, "function": "CAN_FD_D_P", "notes": "CAN_FD_D_P Unshielded twisted pair with CAN_FD_D_N (impedance matched to 120 ohm recommended)"},
