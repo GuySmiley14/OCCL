@@ -33,7 +33,7 @@
 			{"pin": 21, "function": "Frequency/Digital input 4", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
 			{"pin": 22, "function": "Frequency/Digital input 5", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
 			{"pin": 23, "function": "Frequency/Digital input 6", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 24, "function": "Frequency/Digital input 7 / CAN_B_P", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
+			{"pin": 24, "function": "Frequency/Digital input 7", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
 			{"pin": 25, "function": "Frequency/Digital input 8", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
 			{"pin": 26, "function": "Frequency/Digital input 9", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
 			{"pin": 27, "function": "Ethernet Tx_P", "notes": "ETHERNET_TX_P, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_TX_N(CAT5 recommended)"},
