@@ -1,0 +1,167 @@
+{
+    "manufacturer": "AEM",
+    "partName": "18 Cell Unsealed BMS System Satellite",
+    "partNumber": "30-8408",
+    "categories": [
+        "BMS"
+    ],
+    "connectors": [
+        {
+            "label": "A",
+            "manufacturer": "TE",
+            "partNumber": "1-1827863-5",
+            "pins": [
+                {
+                    "pin": "A1",
+                    "function": "T1 (-) ",
+                    "notes": "Temp sensor 1 ground "
+                },
+                {
+                    "pin": "A2",
+                    "function": "T2 (-) ",
+                    "notes": "Temp sensor 2 ground "
+                },
+                {
+                    "pin": "A3",
+                    "function": "T3 (-) ",
+                    "notes": "Temp sensor 3 ground "
+                },
+                {
+                    "pin": "A4",
+                    "function": "Cell 0 (-)",
+                    "notes": "Group Cell ground "
+                },
+                {
+                    "pin": "A5",
+                    "function": "Cell 2 (+)",
+                    "notes": "Group Cell 2 voltage"
+                },
+                {
+                    "pin": "A6",
+                    "function": "Cell 4 (+)",
+                    "notes": "Group Cell 4 voltage"
+                },
+                {
+                    "pin": "A7",
+                    "function": "Cell 6 (+)",
+                    "notes": "Group Cell 6 voltage"
+                },
+                {
+                    "pin": "A8",
+                    "function": "Cell 8 (+)",
+                    "notes": "Group Cell 8 voltage"
+                },
+                {
+                    "pin": "A9",
+                    "function": "Cell 10 (+)",
+                    "notes": "Group Cell 10 voltage"
+                },
+                {
+                    "pin": "A10",
+                    "function": "Cell 12 (+)",
+                    "notes": "Group Cell 12 voltage"
+                },
+                {
+                    "pin": "A11",
+                    "function": "Cell 14 (+)",
+                    "notes": "Group Cell 14 voltage"
+                },
+                {
+                    "pin": "A12",
+                    "function": "Cell 16 (+)",
+                    "notes": "Group Cell 16 voltage"
+                },
+                {
+                    "pin": "A13",
+                    "function": "Cell 18 (+)",
+                    "notes": "Group Cell 18 voltage"
+                },
+                {
+                    "pin": "A14",
+                    "function": "IMO",
+                    "notes": "IsoSPI Minus Out"
+                },
+                {
+                    "pin": "A15",
+                    "function": "IPO",
+                    "notes": "IsoSPI Plus Out"
+                },
+                {
+                    "pin": "B1",
+                    "function": "TH1 (+) ",
+                    "notes": "Temp sensor 1"
+                },
+                {
+                    "pin": "B2",
+                    "function": "TH2 (+) ",
+                    "notes": "Temp sensor 2"
+                },
+                {
+                    "pin": "B3",
+                    "function": "TH3 (+) ",
+                    "notes": "Temp sensor 3"
+                },
+                {
+                    "pin": "B4",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 1 voltage"
+                },
+                {
+                    "pin": "B5",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 3 voltage"
+                },
+                {
+                    "pin": "B6",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 5 voltage"
+                },
+                {
+                    "pin": "B7",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 7 voltage"
+                },
+                {
+                    "pin": "B8",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 9 voltage"
+                },
+                {
+                    "pin": "B9",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 11 voltage"
+                },
+                {
+                    "pin": "B10",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 13 voltage"
+                },
+                {
+                    "pin": "B11",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 15 voltage"
+                },
+                {
+                    "pin": "B12",
+                    "function": "Cell 1 (+)",
+                    "notes": "Group Cell 17 voltage"
+                },
+                {
+                    "pin": "B13",
+                    "function": "NC",
+                    "notes": "NC"
+                },
+                {
+                    "pin": "B14",
+                    "function": "IMI",
+                    "notes": "IsoSPI Minus In"
+                },
+                {
+                    "pin": "B15",
+                    "function": "IPI ",
+                    "notes": "IsoSPI Plus In"
+                }
+            ]
+        }
+    ]
+}

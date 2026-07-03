@@ -1,0 +1,257 @@
+{
+    "manufacturer": "CMS",
+    "partName": "CM Series Inverter",
+    "partNumber": "CM200xx",
+    "categories": [
+        "Inverter"
+    ],
+    "connectors": [
+        {
+            "label": "A",
+            "manufacturer": "Molex",
+            "partNumber": "64320-3311",
+            "pins": [
+                {
+                    "pin": "A1",
+                    "function": "/SIN",
+                    "notes": "Resolver Sine winding -"
+                },
+                {
+                    "pin": "B1",
+                    "function": "SIN",
+                    "notes": "Resolver Sine winding +"
+                },
+                {
+                    "pin": "C1",
+                    "function": "/COS",
+                    "notes": "Resolver Cosine winding -"
+                },
+                {
+                    "pin": "D1",
+                    "function": "COS",
+                    "notes": "Resolver Cosine winding +"
+                },
+                {
+                    "pin": "E1",
+                    "function": "EXC",
+                    "notes": "Resolver excitation output"
+                },
+                {
+                    "pin": "F1",
+                    "function": "/EXC ",
+                    "notes": "Resolver excitation return"
+                },
+                {
+                    "pin": "G1",
+                    "function": "GND",
+                    "notes": "Resolver Shield Ground - **DO NOT connect to 12V system ground or motor case.**"
+                },
+                {
+                    "pin": "H1",
+                    "function": "ENC_A",
+                    "notes": "Encoder Channel A input - Refer to Appendix D for analog encoder and hall sensor options."
+                },
+                {
+                    "pin": "J1",
+                    "function": "ENC_B",
+                    "notes": "Encoder Channel B input - Refer to Appendix D for analog encoder and hall sensor options."
+                },
+                {
+                    "pin": "K1",
+                    "function": "ENC_Z",
+                    "notes": "Encoder Channel Z input (Index) - Refer to Appendix D for analog encoder and hall sensor options."
+                },
+                {
+                    "pin": "L1",
+                    "function": "RLY1",
+                    "notes": "High Side Driver - If precharge function is used this output serves as the precharge contactor coil driving output"
+                },
+                {
+                    "pin": "M1",
+                    "function": "KL30_BATT",
+                    "notes": "12V/24V Constant Voltage - Intended for constant 12V power, when in the off state input current is less than 1mA"
+                },
+                {
+                    "pin": "A2",
+                    "function": "CANA_H",
+                    "notes": "12V/24V Constant Voltage - Intended for constant 12V power, when in the off state input current is less than 1mA"
+                },
+                {
+                    "pin": "B2",
+                    "function": "CANA_H",
+                    "notes": "CAN Channel A High CAN high Port A"
+                },
+                {
+                    "pin": "C2",
+                    "function": "CANA_H",
+                    "notes": "CAN Channel A Low CAN low Port A"
+                },
+                {
+                    "pin": "D2",
+                    "function": "CAN_GND",
+                    "notes": "CAN A Terminator Loop - Short to CANA_L to include a 120 ohm terminator from CANA_H to CANA_L."
+                },
+                {
+                    "pin": "E2",
+                    "function": "CANB_T",
+                    "notes": "CAN ground - CAN is isolated from GND/KL31. CAN shield should be connected here. DO NOT connect to 12V system ground."
+                },
+                {
+                    "pin": "F2",
+                    "function": "CANB_H",
+                    "notes": "CAN B Terminator Loop - Short to CANB_L to include a 120 ohm terminator from CANB_H to CANB_L."
+                },
+                {
+                    "pin": "G2",
+                    "function": "CANB_L",
+                    "notes": "CAN Channel B High"
+                },
+                {
+                    "pin": "H2",
+                    "function": "/PROG",
+                    "notes": "CAN Channel B Low"
+                },
+                {
+                    "pin": "J2",
+                    "function": "EN_PWR",
+                    "notes": "Program Enable - If connected to RS232_GND at power up inverter will go into bootloader mode for use with C2prog software. DO NOT connect to 12V system ground."
+                },
+                {
+                    "pin": "K2",
+                    "function": "DGND",
+                    "notes": "Digital Ground - Ground return for encoder signals."
+                },
+                {
+                    "pin": "L2",
+                    "function": "RLY2 (Main)",
+                    "notes": "High Side Driver - If the precharge function is used this output serves as the main contactor output."
+                },
+                {
+                    "pin": "M2",
+                    "function": "KL15",
+                    "notes": "Switched 12V/24V - Turns on internal power supplies to power up the inverter and start communications."
+                },
+                {
+                    "pin": "A3",
+                    "function": "RTD1P",
+                    "notes": "RTD1 Positive - Allows connection of PT100 or PT1000 RTD for temperature monitoring."
+                },
+                {
+                    "pin": "B3",
+                    "function": "RTD1N",
+                    "notes": "RTD1 Negative - See RTD1P"
+                },
+                {
+                    "pin": "C3",
+                    "function": "RTD2P",
+                    "notes": "RTD2 Positive - Allows connection of PT100 or PT1000 RTD for temperature monitoring."
+                },
+                {
+                    "pin": "D3",
+                    "function": "RTD2N",
+                    "notes": "RTD2 Negative - See RTD2P"
+                },
+                {
+                    "pin": "E3",
+                    "function": "DIN1",
+                    "notes": "Digital Input 1 - STG Forward Enable Switch (if used)"
+                },
+                {
+                    "pin": "F3",
+                    "function": "DIN2",
+                    "notes": "Digital Input 2 - STG Reverse Enable Switch (if used)"
+                },
+                {
+                    "pin": "G3",
+                    "function": "DIN3",
+                    "notes": "Digital Input 3 - STG Brake Switch (if used)"
+                },
+                {
+                    "pin": "H3",
+                    "function": "DIN4",
+                    "notes": "Digital Input 4 - STG Digital Input 4 - STG"
+                },
+                {
+                    "pin": "J3",
+                    "function": "HVIL_IN ",
+                    "notes": "High Voltage Interlock Input When all high voltage plugs are installed HVIL_IN will be connected to HVIL_OUT."
+                },
+                {
+                    "pin": "K3",
+                    "function": "XDCR_PWR",
+                    "notes": "5V power for transducers - Used with sensors connected to analog inputs."
+                },
+                {
+                    "pin": "L3",
+                    "function": "RLY3",
+                    "notes": "Lo-Side Relay Driver - OK Indicator Drive / 12V Power Relay Coil Drive"
+                },
+                {
+                    "pin": "M3",
+                    "function": "KL15_EN",
+                    "notes": "Safety Switched 12V/24V - If voltage is removed then inverter will declare a hardware gate fault, a completely hardware based disable of the PWM from the inverter."
+                },
+                {
+                    "pin": "A4",
+                    "function": "AGND",
+                    "notes": "Analog Ground - For use with analog inputs. **DO NOT connect to 12V system ground.**"
+                },
+                {
+                    "pin": "B4",
+                    "function": "AIN1",
+                    "notes": "Analog Input 1"
+                },
+                {
+                    "pin": "C5",
+                    "function": "AIN2",
+                    "notes": "Analog Input 2"
+                },
+                {
+                    "pin": "D4",
+                    "function": "AIN3",
+                    "notes": "Analog Input 3"
+                },
+                {
+                    "pin": "E4",
+                    "function": "AIN4",
+                    "notes": "Analog Input 4"
+                },
+                {
+                    "pin": "F4",
+                    "function": "RS232_GND ",
+                    "notes": "RS232 Ground - Normally connected to pin 5 of DB9 connector. **DO NOT connect to 12V system ground.**"
+                },
+                {
+                    "pin": "G4",
+                    "function": "RS232_RXD",
+                    "notes": "RS232 Inverter Receive - Normally connected to pin 3 of DB9 connector."
+                },
+                {
+                    "pin": "H4",
+                    "function": "RS232_TXD",
+                    "notes": "RS232 Inverter Transmit - Normally connected to pin 2 of DB9."
+                },
+                {
+                    "pin": "J4",
+                    "function": "HVIL_OUT",
+                    "notes": "High Voltage Interlock Output - See HVIL_IN"
+                },
+                {
+                    "pin": "K4",
+                    "function": "AGND ",
+                    "notes": "Analog Ground - For use with analog inputs. **DO NOT connect to 12V system ground.**"
+                },
+                {
+                    "pin": "L4",
+                    "function": "RLY4",
+                    "notes": "Lo-Side Relay Driver Fault Indicator Coil Drive"
+                },
+                {
+                    "pin": "M4",
+                    "function": "KL31_GND",
+                    "notes": "12V/24V System Ground - 12V/24V system return."
+                }
+            ]
+        }
+    ]
+}
