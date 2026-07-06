@@ -1,0 +1,98 @@
+{
+  "format": "OCCL-Index",
+  "version": 1,
+  "components": [
+    {
+      "manufacturer": "AEM",
+      "partNumber": "30-8407",
+      "path": "Components/AEM/30-8407.json"
+    },
+    {
+      "manufacturer": "AEM",
+      "partNumber": "30-8408",
+      "path": "Components/AEM/30-8408.json"
+    },
+    {
+      "manufacturer": "Bosch",
+      "partNumber": "PCE-XL",
+      "path": "Components/Bosch/PCE-XL.json"
+    },
+    {
+      "manufacturer": "CMS",
+      "partNumber": "CM200xx",
+      "path": "Components/CMS/CM200xx.json"
+    },
+    {
+      "manufacturer": "CMS",
+      "partNumber": "iM-225",
+      "path": "Components/CMS/iM-225.json"
+    },
+    {
+      "manufacturer": "HPT",
+      "partNumber": "COR-EV-000",
+      "path": "Components/HPT/COR-EV-000.json"
+    }
+  ],
+  "connectors": [
+    {
+      "manufacturer": "TE",
+      "partNumber": "1-1827863-5",
+      "svg": "Connectors/TE/1-1827863-5.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "3-1437290-7",
+      "svg": "Connectors/TE/3-1437290-7.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "4-1437290-0",
+      "svg": "Connectors/TE/4-1437290-0.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "4-1437290-1",
+      "svg": "Connectors/TE/4-1437290-1.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "6437288-1",
+      "svg": "Connectors/TE/6437288-1.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "6437288-2",
+      "svg": "Connectors/TE/6437288-2.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "6437288-3",
+      "svg": "Connectors/TE/6437288-3.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "9-6437287-8",
+      "svg": "Connectors/TE/9-6437287-8.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "DTM06-12SA",
+      "svg": "Connectors/TE/DTM06-12SA.svg",
+      "json": "Connectors/TE/DTM06-12SA.json"
+    },
+    {
+      "manufacturer": "TE",
+      "partNumber": "DTM15-12PA",
+      "svg": "Connectors/TE/DTM15-12PA.svg",
+      "json": null
+    }
+  ]
+}
