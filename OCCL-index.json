@@ -37,6 +37,12 @@
     },
     {
       "manufacturer": "TE",
+      "partNumber": "1-2271888-5",
+      "svg": "Connectors/TE/1-2271888-5.svg",
+      "json": null
+    },
+    {
+      "manufacturer": "TE",
       "partNumber": "3-1437290-7",
       "svg": "Connectors/TE/3-1437290-7.svg",
       "json": null
