@@ -2,120 +2,500 @@
     "manufacturer": "HPT",
     "partName": "CORE EV VCU",
     "partNumber": "COR-EV-000",
-	"categories": ["VCU"],
-        
+    "categories": [
+        "VCU"
+    ],
     "connectors": [
-		{
-		"label": "A",
-		"manufacturer": "TE",
-		"partNumber": "6437288-1", 
-		"pins": [
-			{"pin": 1, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 2, "function": "CAN_FD_A_P / CAN_A_P", "notes": "CAN_FD_A_P  Unshielded twisted pair with CAN_FD_A_N (impedance matched to 120 ohm recommended)"},
-			{"pin": 3, "function": "CAN_FD_B_P", "notes": "CAN_FD_B_P Unshielded twisted pair with CAN_FD_B_N (impedance matched to 120 ohm recommended)"},
-			{"pin": 4, "function": "CAN_FD_C_P / CAN_B_P", "notes": "CAN_FD_C_P Unshielded twisted pair with CAN_FD_C_N (impedance matched to 120 ohm recommended)"},
-			{"pin": 5, "function": "CAN_FD_D_P", "notes": "CAN_FD_D_P Unshielded twisted pair with CAN_FD_D_N (impedance matched to 120 ohm recommended)"},
-			{"pin": 6, "function": "HVIL_INPUT", "notes": "Connected thru HVIL loop in vehicle, sourced from HVIL OUTPUT"},
-			{"pin": 7, "function": "2A low side driver output 1", "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"},
-			{"pin": 8, "function": "2A low side driver output 2", "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"},
-			{"pin": 9, "function": "2A low side driver output 3", "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"},
-			{"pin": 10, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 11, "function": "CAN_FD_A_N / CAN_A_N", "notes": "CAN_FD_A_N Unshielded twisted pair with CAN_FD_A_P (impedance matched to 120 ohm recommended)"},
-			{"pin": 12, "function": "CAN_FD_B_N", "notes": "CAN_FD_B_N Unshielded twisted pair with CAN_FD_B_P (impedance matched to 120 ohm recommended)"},
-			{"pin": 13, "function": "CAN_FD_C_N / CAN_B_N", "notes": "CAN_FD_C_N Unshielded twisted pair with CAN_FD_C_P (impedance matched to 120 ohm recommended)"},
-			{"pin": 14, "function": "CAN_FD_D_N", "notes": "CAN_FD_D_N Unshielded twisted pair with CAN_FD_D_P (impedance matched to 120 ohm recommended)"},
-			{"pin": 15, "function": "Frequency/Digital input 1", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 16, "function": "Frequency/Digital input 2", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 17, "function": "Sensor ground / DIGITAL GROUND", "notes": "Sensor ground"},
-			{"pin": 18, "function": "Frequency/Digital input 3", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 19, "function": "Ethernet Tx_N", "notes": "ETHERNET_TX_N, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_TX_P (CAT5 recommended)"},
-			{"pin": 20, "function": "Ethernet Rx_N", "notes": "ETHERNET_RX_N, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_RX_P (CAT5 recommended)"},
-			{"pin": 21, "function": "Frequency/Digital input 4", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 22, "function": "Frequency/Digital input 5", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 23, "function": "Frequency/Digital input 6", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 24, "function": "Frequency/Digital input 7", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 25, "function": "Frequency/Digital input 8", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 26, "function": "Frequency/Digital input 9", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 27, "function": "Ethernet Tx_P", "notes": "ETHERNET_TX_P, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_TX_N(CAT5 recommended)"},
-			{"pin": 28, "function": "Ethernet Rx_P", "notes": "ETHERNET_RX_P, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_RX_N (CAT5 recommended)"},
-			{"pin": 29, "function": "Frequency/Digital input 10", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 30, "function": "Frequency/Digital input 11", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 31, "function": "Frequency/Digital input 12", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 32, "function": "Frequency/Digital input 13", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 33, "function": "Frequency/Digital input 14", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 34, "function": "Frequency/Digital input 15", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"}
-		]},
-		{
-		"label": "B",
-		"manufacturer": "TE",
-		"partNumber": "9-6437287-8",
-		"pins": [
-			{"pin": 1, "function": "Sensor1 +5V Power", "notes": "Sensor1 +5V reference supply voltage (5Vdc, 200mA)"},
-			{"pin": 2, "function": "Speed input 1", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
-			{"pin": 3, "function": "Speed input 2", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
-			{"pin": 4, "function": "Speed input 3", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
-			{"pin": 5, "function": "Speed input 4", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
-			{"pin": 6, "function": "Speed input 5", "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"},
-			{"pin": 7, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 8, "function": "Sensor ground / ANALOG GROUND", "notes": "Sensor ground"},
-			{"pin": 9, "function": "General purpose analog input 1", "notes": "General purpose analog input 0-5V"},
-			{"pin": 10, "function": "General purpose analog input 2", "notes": "General purpose analog input 0-5V"},
-			{"pin": 11, "function": "General purpose analog input 3", "notes": "General purpose analog input 0-5V"},
-			{"pin": 12, "function": "General purpose analog input 4", "notes": "General purpose analog input 0-5V"},
-			{"pin": 13, "function": "General purpose analog input 5", "notes": "General purpose analog input 0-5V"},
-			{"pin": 14, "function": "Sensor2 +5V Power", "notes": "Sensor2 +5V reference supply voltage (5Vdc, 200mA)"},
-			{"pin": 15, "function": "General purpose analog input 6", "notes": "General purpose analog input 0-5V"},
-			{"pin": 16, "function": "General purpose analog input 7", "notes": "General purpose analog input 0-5V"},
-			{"pin": 17, "function": "NTC temperature input 1", "notes": "NTC temperature input 0-5V"},
-			{"pin": 18, "function": "NTC temperature input 2", "notes": "NTC temperature input 0-5V"},
-			{"pin": 19, "function": "HVIL_OUTPUT", "notes": "PWM open drain, current limit 20ma, must be connected thru the HVIL loop in the vehicle to HVIL INPUT"},
-			{"pin": 20, "function": "Sensor ground / ANALOG GROUND", "notes": "Sensor ground"},
-			{"pin": 21, "function": "NTC temperature input 3", "notes": "NTC temperature input 0-5V"},
-			{"pin": 22, "function": "NTC temperature input 4", "notes": "NTC temperature input 0-5V"},
-			{"pin": 23, "function": "NTC temperature input 5", "notes": "NTC temperature input 0-5V"},
-			{"pin": 24, "function": "NTC temperature input 6", "notes": "NTC temperature input 0-5V"},
-			{"pin": 25, "function": "NTC temperature input 7", "notes": "NTC temperature input 0-5V"},
-			{"pin": 26, "function": "NTC temperature input 8", "notes": "NTC temperature input 0-5V"}
-		]},
-		{
-		"label": "C",
-		"manufacturer": "TE",
-		"partNumber": "6437288-2",
-		"pins": [
-			{"pin": 1, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 2, "function": "5A high side driver output 1", "notes": "High side driver control (connect load to engine ground) (T1)"},
-			{"pin": 3, "function": "5A high side driver output 2", "notes": "High side driver control (connect load to engine ground) (D1)"},
-			{"pin": 4, "function": "5A high side driver output 3", "notes": "High side driver control (connect load to engine ground) (D5)"},
-			{"pin": 5, "function": "5A high side driver output 4", "notes": "High side driver control (connect load to engine ground) (T4)"},
-			{"pin": 6, "function": "5A high side driver output 5", "notes": "High side driver control (connect load to engine ground) (D6)"},
-			{"pin": 7, "function": "5A high side driver output 6", "notes": "High side driver control (connect load to engine ground) (T3)"},
-			{"pin": 8, "function": "5A high side driver output 7", "notes": "High side driver control (connect load to engine ground) (D4)"},
-			{"pin": 9, "function": "BATTERY VOLTAGE +12V source (10A fuse #1)", "notes": "10A fused 12V power input BATTERY VOLTAGE"},
-			{"pin": 10, "function": "BATTERY VOLTAGE +12V source (10A fuse #2)", "notes": "10A fused 12V power input BATTERY VOLTAGE"},
-			{"pin": 11, "function": "PROXIMITY", "notes": "Connected to Charge Port PROXIMITY. 0-5V"},
-			{"pin": 12, "function": "WAKE 1", "notes": "0-12V input. 5-12V wakes up the VCU."},
-			{"pin": 13, "function": "WAKE 2", "notes": "0-12V input. 5-12V wakes up the VCU."},
-			{"pin": 14, "function": "WAKE 3", "notes": "0-12V input. 5-12V wakes up the VCU."},
-			{"pin": 15, "function": "CONTROL PILOT", "notes": "Connected to Charge Port CONTROL PILOT. 0-12V, PWM"},
-			{"pin": 16, "function": "Frequency/Digital input 16", "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"},
-			{"pin": 17, "function": "BATTERY VOLTAGE +12V source (10A fuse #3)", "notes": "10A fused 12V power input BATTERY VOLTAGE"},
-			{"pin": 18, "function": "BATTERY VOLTAGE +12V source (10A fuse #4)", "notes": "10A fused 12V power input BATTERY VOLTAGE"},
-			{"pin": 19, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 20, "function": "HALF_BRIDGE 3", "notes": "H-Bridge output high side control"},
-			{"pin": 21, "function": "HALF_BRIDGE 4", "notes": "H-Bridge output high side control"},
-			{"pin": 22, "function": "HALF_BRIDGE 5", "notes": "H-Bridge output high side control"},
-			{"pin": 23, "function": "HALF_BRIDGE 6", "notes": "H-Bridge output high side control"},
-			{"pin": 24, "function": "ECU GROUND / BATTERY NEGATIVE", "notes": "ECU GROUND"},
-			{"pin": 25, "function": "HALF_BRIDGE 2", "notes": "H-Bridge output high side control"},
-			{"pin": 26, "function": "BATTERY VOLTAGE +12V source (10A fuse #5)", "notes": "10A fused 12V power input BATTERY VOLTAGE"},
-			{"pin": 27, "function": "5A high side driver output 8", "notes": "High side driver control (connect load to engine ground) (D3)"},
-			{"pin": 28, "function": "5A high side driver output 9", "notes": "High side driver control (connect load to engine ground) (T2)"},
-			{"pin": 29, "function": "5A high side driver output 10", "notes": "High side driver control (connect load to engine ground) (D2)"},
-			{"pin": 30, "function": "5A high side driver output 11", "notes": "High side driver control (connect load to engine ground) (D7)"},
-			{"pin": 31, "function": "5A high side driver output 12", "notes": "High side driver control (connect load to engine ground) (T5)"},
-			{"pin": 32, "function": "5A high side driver output 13", "notes": "High side driver control (connect load to engine ground) (T6)"},
-			{"pin": 33, "function": "5A high side driver output 14", "notes": "High side driver control (connect load to engine ground) (D8)"},
-			{"pin": 34, "function": "HALF_BRIDGE 1", "notes": "H-Bridge output high side control"}
-		]
-	}]
+        {
+            "label": "A",
+            "manufacturer": "TE",
+            "partNumber": "6437288-1",
+            "pins": [
+                {
+                    "pin": "1",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "2",
+                    "function": "CAN_FD_A_P / CAN_A_P",
+                    "notes": "CAN_FD_A_P  Unshielded twisted pair with CAN_FD_A_N (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "3",
+                    "function": "CAN_FD_B_P",
+                    "notes": "CAN_FD_B_P Unshielded twisted pair with CAN_FD_B_N (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "4",
+                    "function": "CAN_FD_C_P / CAN_B_P",
+                    "notes": "CAN_FD_C_P Unshielded twisted pair with CAN_FD_C_N (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "5",
+                    "function": "CAN_FD_D_P",
+                    "notes": "CAN_FD_D_P Unshielded twisted pair with CAN_FD_D_N (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "6",
+                    "function": "HVIL_INPUT",
+                    "notes": "Connected thru HVIL loop in vehicle, sourced from HVIL OUTPUT"
+                },
+                {
+                    "pin": "7",
+                    "function": "2A low side driver output 1",
+                    "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"
+                },
+                {
+                    "pin": "8",
+                    "function": "2A low side driver output 2",
+                    "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"
+                },
+                {
+                    "pin": "9",
+                    "function": "2A low side driver output 3",
+                    "notes": "Low side driver control (connect load to switched ignition supply), Configurable pull-up: none or 5V or 12V"
+                },
+                {
+                    "pin": "10",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "11",
+                    "function": "CAN_FD_A_N / CAN_A_N",
+                    "notes": "CAN_FD_A_N Unshielded twisted pair with CAN_FD_A_P (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "12",
+                    "function": "CAN_FD_B_N",
+                    "notes": "CAN_FD_B_N Unshielded twisted pair with CAN_FD_B_P (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "13",
+                    "function": "CAN_FD_C_N / CAN_B_N",
+                    "notes": "CAN_FD_C_N Unshielded twisted pair with CAN_FD_C_P (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "14",
+                    "function": "CAN_FD_D_N",
+                    "notes": "CAN_FD_D_N Unshielded twisted pair with CAN_FD_D_P (impedance matched to 120 ohm recommended)"
+                },
+                {
+                    "pin": "15",
+                    "function": "Frequency/Digital input 1",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "16",
+                    "function": "Frequency/Digital input 2",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "17",
+                    "function": "Sensor ground / DIGITAL GROUND",
+                    "notes": "Sensor ground"
+                },
+                {
+                    "pin": "18",
+                    "function": "Frequency/Digital input 3",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "19",
+                    "function": "Ethernet Tx_N",
+                    "notes": "ETHERNET_TX_N, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_TX_P (CAT5 recommended)"
+                },
+                {
+                    "pin": "20",
+                    "function": "Ethernet Rx_N",
+                    "notes": "ETHERNET_RX_N, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_RX_P (CAT5 recommended)"
+                },
+                {
+                    "pin": "21",
+                    "function": "Frequency/Digital input 4",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "22",
+                    "function": "Frequency/Digital input 5",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "23",
+                    "function": "Frequency/Digital input 6",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "24",
+                    "function": "Frequency/Digital input 7",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "25",
+                    "function": "Frequency/Digital input 8",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "26",
+                    "function": "Frequency/Digital input 9",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "27",
+                    "function": "Ethernet Tx_P",
+                    "notes": "ETHERNET_TX_P, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_TX_N(CAT5 recommended)"
+                },
+                {
+                    "pin": "28",
+                    "function": "Ethernet Rx_P",
+                    "notes": "ETHERNET_RX_P, 10/100 Ethernet, Unshielded twisted pair with ETHERNET_RX_N (CAT5 recommended)"
+                },
+                {
+                    "pin": "29",
+                    "function": "Frequency/Digital input 10",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "30",
+                    "function": "Frequency/Digital input 11",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "31",
+                    "function": "Frequency/Digital input 12",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "32",
+                    "function": "Frequency/Digital input 13",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "33",
+                    "function": "Frequency/Digital input 14",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "34",
+                    "function": "Frequency/Digital input 15",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                }
+            ]
+        },
+        {
+            "label": "B",
+            "manufacturer": "TE",
+            "partNumber": "9-6437287-8",
+            "pins": [
+                {
+                    "pin": "1",
+                    "function": "Sensor1 +5V Power",
+                    "notes": "Sensor1 +5V reference supply voltage (5Vdc, 200mA)"
+                },
+                {
+                    "pin": "2",
+                    "function": "Speed input 1",
+                    "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"
+                },
+                {
+                    "pin": "3",
+                    "function": "Speed input 2",
+                    "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"
+                },
+                {
+                    "pin": "4",
+                    "function": "Speed input 3",
+                    "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"
+                },
+                {
+                    "pin": "5",
+                    "function": "Speed input 4",
+                    "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"
+                },
+                {
+                    "pin": "6",
+                    "function": "Speed input 5",
+                    "notes": "Digital hall effect sensor / VR sensor. Hall Effect Configurable pullup: none, 4.7k, 10k. VR sensor threshold: 3 Configurable levels"
+                },
+                {
+                    "pin": "7",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "8",
+                    "function": "Sensor ground / ANALOG GROUND",
+                    "notes": "Sensor ground"
+                },
+                {
+                    "pin": "9",
+                    "function": "General purpose analog input 1",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "10",
+                    "function": "General purpose analog input 2",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "11",
+                    "function": "General purpose analog input 3",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "12",
+                    "function": "General purpose analog input 4",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "13",
+                    "function": "General purpose analog input 5",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "14",
+                    "function": "Sensor2 +5V Power",
+                    "notes": "Sensor2 +5V reference supply voltage (5Vdc, 200mA)"
+                },
+                {
+                    "pin": "15",
+                    "function": "General purpose analog input 6",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "16",
+                    "function": "General purpose analog input 7",
+                    "notes": "General purpose analog input 0-5V"
+                },
+                {
+                    "pin": "17",
+                    "function": "NTC temperature input 1",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "18",
+                    "function": "NTC temperature input 2",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "19",
+                    "function": "HVIL_OUTPUT",
+                    "notes": "PWM open drain, current limit 20ma, must be connected thru the HVIL loop in the vehicle to HVIL INPUT"
+                },
+                {
+                    "pin": "20",
+                    "function": "Sensor ground / ANALOG GROUND",
+                    "notes": "Sensor ground"
+                },
+                {
+                    "pin": "21",
+                    "function": "NTC temperature input 3",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "22",
+                    "function": "NTC temperature input 4",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "23",
+                    "function": "NTC temperature input 5",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "24",
+                    "function": "NTC temperature input 6",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "25",
+                    "function": "NTC temperature input 7",
+                    "notes": "NTC temperature input 0-5V"
+                },
+                {
+                    "pin": "26",
+                    "function": "NTC temperature input 8",
+                    "notes": "NTC temperature input 0-5V"
+                }
+            ]
+        },
+        {
+            "label": "C",
+            "manufacturer": "TE",
+            "partNumber": "6437288-2",
+            "pins": [
+                {
+                    "pin": "1",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "2",
+                    "function": "5A high side driver output 1",
+                    "notes": "High side driver control (connect load to engine ground) (T1)"
+                },
+                {
+                    "pin": "3",
+                    "function": "5A high side driver output 2",
+                    "notes": "High side driver control (connect load to engine ground) (D1)"
+                },
+                {
+                    "pin": "4",
+                    "function": "5A high side driver output 3",
+                    "notes": "High side driver control (connect load to engine ground) (D5)"
+                },
+                {
+                    "pin": "5",
+                    "function": "5A high side driver output 4",
+                    "notes": "High side driver control (connect load to engine ground) (T4)"
+                },
+                {
+                    "pin": "6",
+                    "function": "5A high side driver output 5",
+                    "notes": "High side driver control (connect load to engine ground) (D6)"
+                },
+                {
+                    "pin": "7",
+                    "function": "5A high side driver output 6",
+                    "notes": "High side driver control (connect load to engine ground) (T3)"
+                },
+                {
+                    "pin": "8",
+                    "function": "5A high side driver output 7",
+                    "notes": "High side driver control (connect load to engine ground) (D4)"
+                },
+                {
+                    "pin": "9",
+                    "function": "BATTERY VOLTAGE +12V source (10A fuse #1)",
+                    "notes": "10A fused 12V power input BATTERY VOLTAGE"
+                },
+                {
+                    "pin": "10",
+                    "function": "BATTERY VOLTAGE +12V source (10A fuse #2)",
+                    "notes": "10A fused 12V power input BATTERY VOLTAGE"
+                },
+                {
+                    "pin": "11",
+                    "function": "PROXIMITY",
+                    "notes": "Connected to Charge Port PROXIMITY. 0-5V"
+                },
+                {
+                    "pin": "12",
+                    "function": "WAKE 1",
+                    "notes": "0-12V input. 5-12V wakes up the VCU."
+                },
+                {
+                    "pin": "13",
+                    "function": "WAKE 2",
+                    "notes": "0-12V input. 5-12V wakes up the VCU."
+                },
+                {
+                    "pin": "14",
+                    "function": "WAKE 3",
+                    "notes": "0-12V input. 5-12V wakes up the VCU."
+                },
+                {
+                    "pin": "15",
+                    "function": "CONTROL PILOT",
+                    "notes": "Connected to Charge Port CONTROL PILOT. 0-12V, PWM"
+                },
+                {
+                    "pin": "16",
+                    "function": "Frequency/Digital input 16",
+                    "notes": "Frequency measurement (PWM) input / Switch input / Digital input. 0-12V input. Configurable pull-up or pull-down"
+                },
+                {
+                    "pin": "17",
+                    "function": "BATTERY VOLTAGE +12V source (10A fuse #3)",
+                    "notes": "10A fused 12V power input BATTERY VOLTAGE"
+                },
+                {
+                    "pin": "18",
+                    "function": "BATTERY VOLTAGE +12V source (10A fuse #4)",
+                    "notes": "10A fused 12V power input BATTERY VOLTAGE"
+                },
+                {
+                    "pin": "19",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "20",
+                    "function": "HALF_BRIDGE 3",
+                    "notes": "H-Bridge output high side control"
+                },
+                {
+                    "pin": "21",
+                    "function": "HALF_BRIDGE 4",
+                    "notes": "H-Bridge output high side control"
+                },
+                {
+                    "pin": "22",
+                    "function": "HALF_BRIDGE 5",
+                    "notes": "H-Bridge output high side control"
+                },
+                {
+                    "pin": "23",
+                    "function": "HALF_BRIDGE 6",
+                    "notes": "H-Bridge output high side control"
+                },
+                {
+                    "pin": "24",
+                    "function": "ECU GROUND / BATTERY NEGATIVE",
+                    "notes": "ECU GROUND"
+                },
+                {
+                    "pin": "25",
+                    "function": "HALF_BRIDGE 2",
+                    "notes": "H-Bridge output high side control"
+                },
+                {
+                    "pin": "26",
+                    "function": "BATTERY VOLTAGE +12V source (10A fuse #5)",
+                    "notes": "10A fused 12V power input BATTERY VOLTAGE"
+                },
+                {
+                    "pin": "27",
+                    "function": "5A high side driver output 8",
+                    "notes": "High side driver control (connect load to engine ground) (D3)"
+                },
+                {
+                    "pin": "28",
+                    "function": "5A high side driver output 9",
+                    "notes": "High side driver control (connect load to engine ground) (T2)"
+                },
+                {
+                    "pin": "29",
+                    "function": "5A high side driver output 10",
+                    "notes": "High side driver control (connect load to engine ground) (D2)"
+                },
+                {
+                    "pin": "30",
+                    "function": "5A high side driver output 11",
+                    "notes": "High side driver control (connect load to engine ground) (D7)"
+                },
+                {
+                    "pin": "31",
+                    "function": "5A high side driver output 12",
+                    "notes": "High side driver control (connect load to engine ground) (T5)"
+                },
+                {
+                    "pin": "32",
+                    "function": "5A high side driver output 13",
+                    "notes": "High side driver control (connect load to engine ground) (T6)"
+                },
+                {
+                    "pin": "33",
+                    "function": "5A high side driver output 14",
+                    "notes": "High side driver control (connect load to engine ground) (D8)"
+                },
+                {
+                    "pin": "34",
+                    "function": "HALF_BRIDGE 1",
+                    "notes": "H-Bridge output high side control"
+                }
+            ]
+        }
+    ]
 }

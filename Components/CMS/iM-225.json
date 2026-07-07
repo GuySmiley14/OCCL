@@ -12,92 +12,92 @@
             "partNumber": "1-1563759-1",
             "pins": [
                 {
-                    "pin": 1,
+                    "pin": "1",
                     "function": "Resolver Exec -",
                     "notes": ""
                 },
                 {
-                    "pin": 2,
+                    "pin": "2",
                     "function": "Resolver Sin -",
                     "notes": ""
                 },
                 {
-                    "pin": 3,
+                    "pin": "3",
                     "function": "Resolver Cos -",
                     "notes": ""
                 },
                 {
-                    "pin": 4,
+                    "pin": "4",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 5,
+                    "pin": "5",
                     "function": "Shield ",
                     "notes": ""
                 },
                 {
-                    "pin": 6,
+                    "pin": "6",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 7,
+                    "pin": "7",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 8,
+                    "pin": "8",
                     "function": "Motor Temperature 2 +",
                     "notes": ""
                 },
                 {
-                    "pin": 9,
+                    "pin": "9",
                     "function": "Motor Temperature 1 +",
                     "notes": ""
                 },
                 {
-                    "pin": 10,
+                    "pin": "10",
                     "function": "Resolver Exec +",
                     "notes": ""
                 },
                 {
-                    "pin": 11,
+                    "pin": "11",
                     "function": "Resolver Sin +",
                     "notes": ""
                 },
                 {
-                    "pin": 12,
+                    "pin": "12",
                     "function": "Resolver Cos +",
                     "notes": ""
                 },
                 {
-                    "pin": 13,
+                    "pin": "13",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 14,
+                    "pin": "14",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 15,
+                    "pin": "15",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 16,
+                    "pin": "16",
                     "function": "",
                     "notes": ""
                 },
                 {
-                    "pin": 17,
+                    "pin": "17",
                     "function": "Motor Temperature 1 GND ",
                     "notes": ""
                 },
                 {
-                    "pin": 18,
+                    "pin": "18",
                     "function": "Motor Temperature 2 GND",
                     "notes": ""
                 }
@@ -109,12 +109,12 @@
             "partNumber": "PT1825",
             "pins": [
                 {
-                    "pin": 1,
+                    "pin": "1",
                     "function": "Oil Temperature Sensor +",
                     "notes": ""
                 },
                 {
-                    "pin": 2,
+                    "pin": "2",
                     "function": "Oil Temperature Sensor GND",
                     "notes": ""
                 }
@@ -126,17 +126,17 @@
             "partNumber": "15477863",
             "pins": [
                 {
-                    "pin": 1,
+                    "pin": "1",
                     "function": "Analog GND",
                     "notes": ""
                 },
                 {
-                    "pin": 2,
+                    "pin": "2",
                     "function": "Oil Pressure Sensor Supply (5V)",
                     "notes": ""
                 },
                 {
-                    "pin": 3,
+                    "pin": "3",
                     "function": "Oil Pressure Sensor Signal",
                     "notes": ""
                 }
