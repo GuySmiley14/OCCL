@@ -1,0 +1,78 @@
+# scripts/build_occl_index.py
+
+Generates `OCCL-index.json` at the repo root from the current contents of
+`Components/` and `Connectors/`. Run manually:
+
+```
+python3 scripts/build_occl_index.py
+```
+
+In practice this runs automatically via
+`.github/workflows/build-index.yml` on every push that touches
+`Components/**`, `Connectors/**`, or the script itself, and commits the
+result back to `main`.
+
+`OCCL-index.json` is the single file POSH fetches at startup
+(`loadOCCLIndex()`) to populate its component/connector picker. Nothing
+in POSH talks to the GitHub API directly — this file is the entire
+contract between OCCL and any consumer.
+
+---
+
+## Output shape
+
+```jsonc
+{
+  "format": "OCCL-Index",
+  "version": 1,
+  "components": [
+    { "manufacturer": "HPT", "partNumber": "COR-EV-000", "path": "Components/HPT/COR-EV-000.json" }
+  ],
+  "connectors": [
+    { "manufacturer": "TE", "partNumber": "DTM06-12SA", "svg": "Connectors/TE/DTM06-12SA.svg", "json": "Connectors/TE/DTM06-12SA.json" },
+    { "manufacturer": "TE", "partNumber": "6437288-1", "svg": "Connectors/TE/6437288-1.svg", "json": null }
+  ],
+  "invalid": [
+    { "path": "Components/Bosch/PCE-XL.json", "reason": "invalid JSON: Expecting value: line 1 column 1 (char 0)" }
+  ]
+}
+```
+
+## Validation rules
+
+**Components are strict.** A component's `.json` is the only source of
+its pin data — there's no fallback — so it must parse as valid JSON and
+satisfy a minimal spec check to be included in `components`:
+
+- Has `manufacturer`, `partName`, `partNumber`, and `connectors`.
+- `connectors` is a non-empty list.
+- Each connector has `manufacturer`, `partNumber`, and a non-empty
+  `pins` list.
+
+Anything that fails either check — empty file, malformed JSON, missing
+fields — is **excluded from `components`** and listed in `invalid` with
+a reason instead. It's safe to drop incomplete or placeholder component
+JSONs into the repo at any time; they just won't be pickable until they
+pass validation, and the next index build will show up exactly why.
+
+**Connectors are lenient.** A connector only strictly needs an `.svg`
+to be listed — the graphic is optional too, actually: POSH renders a
+"No Connector Image Available" placeholder if the SVG is missing or
+fails to load, so even an SVG-less connector entry is safe to reference
+from a component. The connector's own optional `.json` metadata (e.g.
+`DTM06-12SA.json`) is enrichment, not a requirement — if it exists but
+fails to parse, it's treated the same as if it were never contributed
+(`json: null`), rather than failing the whole connector.
+
+This asymmetry is intentional: a broken component silently reaching the
+picker means a user picks it and gets nothing useful, so those fail
+loud (excluded + flagged). A missing connector image is a normal,
+expected state as the library grows, so those fail quiet (placeholder).
+
+## Adding new parts
+
+Nothing to register by hand. Drop the files into `Components/<Manufacturer>/`
+or `Connectors/<Manufacturer>/` following the existing flat layout, push
+to `main`, and the Action rebuilds `OCCL-index.json` for you. If a new
+component doesn't show up in POSH's picker, check `invalid` in the
+generated index first — it'll usually say exactly what's missing.
