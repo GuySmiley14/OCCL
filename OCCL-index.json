@@ -13,11 +13,6 @@
       "path": "Components/AEM/30-8408.json"
     },
     {
-      "manufacturer": "Bosch",
-      "partNumber": "PCE-XL",
-      "path": "Components/Bosch/PCE-XL.json"
-    },
-    {
       "manufacturer": "CMS",
       "partNumber": "CM200xx",
       "path": "Components/CMS/CM200xx.json"
@@ -93,6 +88,12 @@
       "partNumber": "DTM15-12PA",
       "svg": "Connectors/TE/DTM15-12PA.svg",
       "json": null
+    }
+  ],
+  "invalid": [
+    {
+      "path": "Components/Bosch/PCE-XL.json",
+      "reason": "invalid JSON: Expecting value: line 1 column 1 (char 0)"
     }
   ]
 }
