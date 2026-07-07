@@ -30,6 +30,11 @@ def validate_component(data):
                 return f"connector[{i}] missing '{key}'"
         if not isinstance(connector["pins"], list) or len(connector["pins"]) == 0:
             return f"connector[{i}] 'pins' must be a non-empty list"
+        for j, pin in enumerate(connector["pins"]):
+            if "pin" not in pin:
+                return f"connector[{i}] pin[{j}] missing 'pin'"
+            if not isinstance(pin["pin"], str):
+                return f"connector[{i}] pin[{j}] 'pin' must be a string, got {type(pin['pin']).__name__}"
 
     return None
 
