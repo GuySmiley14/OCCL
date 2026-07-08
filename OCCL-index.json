@@ -30,6 +30,12 @@
   ],
   "connectors": [
     {
+      "manufacturer": "Molex",
+      "partNumber": "5007620481",
+      "svg": "Connectors/Molex/5007620481.svg",
+      "json": null
+    },
+    {
       "manufacturer": "TE",
       "partNumber": "1-1827863-5",
       "svg": "Connectors/TE/1-1827863-5.svg",
